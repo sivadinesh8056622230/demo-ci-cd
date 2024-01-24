@@ -10,6 +10,10 @@ app.get('/', function (req, res) {
 app.get('/will', function (req, res) {
     res.send('{ "response": "Hello World" }');
 });
+
+app.get('/hai', function (req, res) {
+    res.send('{ "response": " hey man!" }');
+});
 app.get('/ready', function (req, res) {
     res.send('{ "response": " Great!, It works!" }');
 });
